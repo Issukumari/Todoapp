@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    tools:context="fundoohr.com.todoapp.MainActivity">
+
+
+        <ImageView
+        android:id="@+id/img1"
+        android:layout_width="121dp"
+        android:layout_height="121dp"
+            android:layout_marginLeft="120dp"
+        android:background="@drawable/bridgelabz"/>
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:layout_marginLeft="130dp"
+        android:textSize="40dp" />
+
+
+
+    <TextView
+    android:id="@+id/textview2"
+    android:layout_width="match_parent"
+        android:paddingTop="10dp"
+    android:layout_height="wrap_content"
+    android:text="Email_Id"
+    android:textSize="20dp"/>
+
+
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/textview3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="password"
+
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/edittext2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            />
+
+
+        <TextView
+            android:id="@+id/textview4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forgot_pass"
+            android:textSize="20dp"/>
+    <Button
+android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:text="Login "
+        android:onClick="login"
+        android:textSize="20dp"/>
+
+<Button
+    android:id="@+id/btn2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Create_account"
+    android:onClick="Register"
+    android:textSize="20dp"
+    android:layout_marginLeft="120dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+        android:background="@drawable/fbb"/>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/kk"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>
