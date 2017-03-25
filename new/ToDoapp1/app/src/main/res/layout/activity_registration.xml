@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/smi"
+    tools:context=".RegisterActivity">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/txt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Registration"
+        android:textColor="#303F9F"
+        android:layout_marginLeft="110dp"
+        android:textSize="30dp"/>
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/edit6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt6"
+        android:background="@drawable/border_edittext"
+        android:layout_margin="5dp"
+        android:textColorHint="#ff00"
+          android:layout_marginTop="30dp"
+        android:hint="Full Name"
+          android:textSize="20dp"
+        android:layout_centerHorizontal="true" />
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/edit3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+           android:layout_margin="5dp"
+        android:hint="Email"
+        android:textColorHint="#ff00"
+        android:textSize="20dp"
+
+        android:layout_marginTop="36dp"
+        android:background="@drawable/border_edittext"
+        android:layout_below="@+id/edit6"
+        android:layout_alignParentStart="true" />
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/edit4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:background="@drawable/border_edittext"
+        android:layout_margin="5dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/edit3"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#ff00"
+        android:layout_centerHorizontal="true" />
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/edit5"
+        android:layout_width="match_parent"
+        android:background="@drawable/border_edittext"
+        android:layout_height="wrap_content"
+        android:hint="Mobile"
+        android:textSize="20dp"
+        android:textColorHint="#ff00"
+        android:layout_alignTop="@+id/edit7"
+        android:layout_alignStart="@+id/txt6" />
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/edit7"
+        android:textColorHint="#ff00"
+      android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_edittext"
+        android:hint="+91"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/edit4"
+        android:layout_alignParentStart="true" />
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/edit8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:textSize="20dp"
+        android:background="@drawable/border_edittext"
+        android:textColorHint="#ff00"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/edit7"
+        android:layout_centerHorizontal="true" />
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:textSize="20dp"
+        android:background="@drawable/border_edittext"
+        android:layout_marginLeft="120dp"
+        android:layout_below="@+id/edit8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp" />
+
+
+
+
+</RelativeLayout>
